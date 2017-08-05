@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SlideImageView">
+        <attr name="textMargin" format="dimension"/>
+        <attr name="nameTextSize" format="dimension"/>
+        <attr name="nameTextColor" format="color"/>
+        <attr name="indicatorColor" format="color"/>
+        <attr name="indicatorRadius" format="dimension"/>
+        <attr name="emptyColor" format="color"/>
+    </declare-styleable>
+</resources>
