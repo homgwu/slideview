@@ -18,7 +18,9 @@ SlideView是一个Android上的以滑动揭示的方式显示并切换图片的V
 
 - 设置一组(List\<ImageInfo>)待加载的图片(本地图片，网络图片)，通过([ImageLoader](https://github.com/nostra13/Android-Universal-Image-Loader))库加载出图片并按List的顺序显示图片。
 
-- 通过手势识别(GestureDetector)，判断用户手指往左或者往右滑动，根据滑动位移揭开和盖上图片，根据滑动速度和滑动位移的距离决定是否翻页。
+- 通过手势识别(GestureDetector)，判断用户手指往左或者往右滑动，根据滑动位移揭开和盖上图片，当手指松开时，根据滑动速度和滑动位移的距离决定是翻页，还是滑回当前页。
+
+- 翻页或滑回时通过ScrollerCompat来计算并画出平滑动画，在规定时间内平滑过度。
 
 - 继承自View，可在xml布局文件中使用，也可以java代码使用。
 
