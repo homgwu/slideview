@@ -62,9 +62,6 @@ public class SlideImageView extends View implements GestureDetector.OnGestureLis
     private boolean mIsOnLayouted = false;
     private String mDrawName = "";
     private int mDrawIndicatorIndex = 0;
-    /**
-     * 1:往左滑动要翻页,2:往右滑动要翻页,3:往左滑回不翻页,4:往右滑回不翻页
-     */
     private SlideDirection mSlideDirection = SlideDirection.SLIDE_INIT;
     private Rect mRect = new Rect();
     private Paint mPaint = new Paint();

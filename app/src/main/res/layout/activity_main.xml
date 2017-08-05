@@ -2,21 +2,20 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/darker_gray"
-    tools:context="com.homg.slideview.MainActivity">
+    >
 
     <com.homg.slideview.SlideImageView
         android:id="@+id/main_siv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerInParent="true"
+        app:indicatorColor="#FF0000FF"
         app:indicatorRadius="5dp"
+        app:nameTextColor="#FF0000FF"
         app:nameTextSize="26sp"
         app:textMargin="5dp"
-        app:indicatorColor="#FF0000FF"
-        app:nameTextColor="#FF0000FF"
         />
 </RelativeLayout>
