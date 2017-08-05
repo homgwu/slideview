@@ -6,7 +6,7 @@ SlideView是一个Android上的以滑动揭示的方式显示并切换图片的V
 
 > 作者：竹尘居士
 >
-> 博客：http://www.cnblogs.com/homg
+> 博客：http://www.cnblogs.com/homg/p/7291793.html
 
 
 
